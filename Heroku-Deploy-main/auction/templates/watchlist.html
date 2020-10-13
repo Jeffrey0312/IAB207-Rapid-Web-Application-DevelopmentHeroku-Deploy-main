@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Watchlist</title>
+
+</head>
+
+<body>
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <img class="mx-auto d-block" src="img/images1.png">
+            <a class="navbar-brand" href="index.html">
+                <h5>Footwear Auction.com</h5>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto ">
+
+                    <li class="nav-item">
+                        <a class="nav-link " href="item creation.html">Listing |</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="watchlist.html">My Watchlist |</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">My Cart </a>
+                    </li>
+
+                </ul>
+
+                <form class="form-inline my-2 my-lg-0">
+                    <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Log in</button>
+                    <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Sign up</button>
+
+                </form>
+            </div>
+        </nav>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link px-md-5" href="index.html">
+                            <h5>Home</h5>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-md-5" href="#">
+                            <h5>Auction</h5>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-md-5" href="#">
+                            <h5>About</h5>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-md-5" href="#">
+                            <h5>Contact Us</h5>
+                        </a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search">
+                    <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+                    <a class="nav-link text-info" href="#">Advanced</a>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <main>
+
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="col-md-2 ml-3 mr-4 mt-3">
+                    <div class="bg-info">
+                        <h1>Categories</h1>
+                    </div>
+
+                    <div class="list-group">
+                        <a class="list-group-item list-group-item-action">Sneaker</a>
+                        <a href="#" class="list-group-item list-group-item-action">Athlectic Shoes</a>
+                        <a href="#" class="list-group-item list-group-item-action">Boots</a>
+                        <a href="#" class="list-group-item list-group-item-action">Flats</a>
+                        <a href="#" class="list-group-item list-group-item-action">Heels</a>
+                        <a href="#" class="list-group-item list-group-item-action">Slippers</a>
+                        <a href="#" class="list-group-item list-group-item-action">Sandals</a>
+                        <a href="#" class="list-group-item list-group-item-action">Dress Shoes</a>
+                        <a href="#" class="list-group-item list-group-item-action">Casual Shoes</a>
+                        <a href="#" class="list-group-item list-group-item-action">More</a>
+                    </div>
+                </div>
+
+                <div class="col-md-8">
+                    <div class="mt-3 ml-3">
+
+                        <h3 class="creation title"><input type="image" src="img/heart.png" />Watchlist</h3>
+                        <hr>
+                        <div class="card mb-3" style="max-width: 1000px;">
+                            <div class="row no-gutters">
+                                <div class="col-md-2">
+                                    <img src="img/01.jpg" class="card-img">
+                                </div>
+                                <div class="col-md-3 mt-3 ml-3">
+                                    <h5 class="card-title">Keen boots</h5>
+                                </div>
+                                <div class="col-md-3 mt-3">
+                                    <h5 class="card-title">30-Sep,20:22 AEST</h5>
+                                </div>
+                                <div class="col-md-3 mt-3" id="buttonAlign">
+                                    <h5 class="card-title">AU$ 129.00</h5>
+                                    <div class=row>
+                                        <div class="col-md-6 mt-3" id="buttonAlign">
+                                            <div class="removeBtn">
+                                                <a class="btn btn-secondary btn-sm" href="#" role="button">Remove it</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 mt-3" id="buttonAlign">
+                                            <a class="btn btn-primary btn-sm" href="#" role="button">Buy it now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card mb-3" style="max-width: 1000px;">
+                            <div class="row no-gutters">
+                                <div class="col-md-2">
+                                    <img src="img/02.jpg" class="card-img">
+                                </div>
+                                <div class="col-md-3 mt-3 ml-3">
+                                    <h5 class="card-title">Deuce High</h5>
+                                </div>
+                                <div class="col-md-3 mt-3">
+                                    <h5 class="card-title">28-Sep,21:15 AEST</h5>
+                                </div>
+                                <div class="col-md-3 mt-3" id="buttonAlign">
+                                    <h5 class="card-title">AU$ 123.00</h5>
+                                    <div class=row>
+                                        <div class="col-md-6 mt-3" id="buttonAlign">
+                                            <div class="removeBtn">
+                                                <a class="btn btn-secondary btn-sm" href="#" role="button">Remove it</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 mt-3" id="buttonAlign">
+                                            <a class="btn btn-primary btn-sm" href="#" role="button">Buy it now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card mb-3" style="max-width: 1000px;">
+                            <div class="row no-gutters">
+                                <div class="col-md-2">
+                                    <img src="img/03.jpg" class="card-img">
+                                </div>
+                                <div class="col-md-3 mt-3 ml-3">
+                                    <h5 class="card-title">John Zen Canvas</h5>
+                                </div>
+                                <div class="col-md-3 mt-3">
+                                    <h5 class="card-title">25-Sep,16:32 AEST</h5>
+                                </div>
+                                <div class="col-md-3 mt-3" id="buttonAlign">
+                                    <h5 class="card-title">AU$ 118.00</h5>
+                                    <div class=row>
+                                        <div class="col-md-6 mt-3" id="buttonAlign">
+                                            <div class="removeBtn">
+                                                <a class="btn btn-secondary btn-sm" href="#" role="button">Remove it</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 mt-3" id="buttonAlign">
+                                            <a class="btn btn-primary btn-sm" href="#" role="button">Buy it now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card mb-3" style="max-width: 1000px;">
+                            <div class="row no-gutters">
+                                <div class="col-md-2">
+                                    <img src="img/04.jpg" class="card-img">
+                                </div>
+                                <div class="col-md-3 mt-3 ml-3">
+                                    <h5 class="card-title">Adidas Grant Court Sneaker</h5>
+                                </div>
+                                <div class="col-md-3 mt-3">
+                                    <h5 class="card-title">20-Sep,22:24 AEST</h5>
+                                </div>
+                                <div class="col-md-3 mt-3" id="buttonAlign">
+                                    <h5 class="card-title">AU$ 113.00</h5>
+                                    <div class=row>
+                                        <div class="col-md-6 mt-3" id="buttonAlign">
+                                            <div class="removeBtn">
+                                                <a class="btn btn-secondary btn-sm" href="#" role="button">Remove it</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 mt-3" id="buttonAlign">
+                                            <a class="btn btn-primary btn-sm" href="#" role="button">Buy it now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card mb-3" style="max-width: 1000px;">
+                            <div class="row no-gutters">
+                                <div class="col-md-2">
+                                    <img src="img/05.jpg" class="card-img">
+                                </div>
+                                <div class="col-md-3 mt-3 ml-3">
+                                    <h5 class="card-title">Box Hog Plus Boxing Shoes</h5>
+                                </div>
+                                <div class="col-md-3 mt-3">
+                                    <h5 class="card-title">16-Sep,20:19 AEST</h5>
+                                </div>
+                                <div class="col-md-3 mt-3" id="buttonAlign">
+                                    <h5 class="card-title">AU$ 110.00</h5>
+                                    <div class=row>
+                                        <div class="col-md-6 mt-3" id="buttonAlign">
+                                            <div class="removeBtn">
+                                                <a class="btn btn-secondary btn-sm" href="#" role="button">Remove it</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 mt-3" id="buttonAlign">
+                                            <a class="btn btn-primary btn-sm" href="#" role="button">Buy it now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+
+    <!-- Footer -->
+    <footer class="page-footer text-white bg-secondary mt-5">
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+            <a class="text-warning" href="index.html"> FootwearAuction.com</a>
+        </div>
+    </footer>
+
+</body>
+
+</html>

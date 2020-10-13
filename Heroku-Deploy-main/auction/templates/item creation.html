@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Item creation</title>
+
+</head>
+
+<body>
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <img class="mx-auto d-block" src="img/images1.png">
+            <a class="navbar-brand" href="index.html">
+                <h5>Footwear Auction.com</h5>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto ">
+
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="item creation.html">Listing |</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="watchlist.html">My Watchlist |</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">My Cart </a>
+                    </li>
+
+                </ul>
+
+                <form class="form-inline my-2 my-lg-0">
+                    <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Log in</button>
+                    <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Sign up</button>
+
+                </form>
+            </div>
+        </nav>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link px-md-5" href="index.html">
+                            <h5>Home</h5>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-md-5" href="#">
+                            <h5>Auction</h5>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-md-5" href="#">
+                            <h5>About</h5>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-md-5" href="#">
+                            <h5>Contact Us</h5>
+                        </a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search">
+                    <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+                    <a class="nav-link text-info" href="#">Advanced</a>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <main>
+
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="col-md-2 ml-3 mr-4 mt-3">
+                    <div class="bg-info">
+                        <h1>Categories</h1>
+                    </div>
+
+                    <div class="list-group">
+                        <a class="list-group-item list-group-item-action">Sneaker</a>
+                        <a href="#" class="list-group-item list-group-item-action">Athlectic Shoes</a>
+                        <a href="#" class="list-group-item list-group-item-action">Boots</a>
+                        <a href="#" class="list-group-item list-group-item-action">Flats</a>
+                        <a href="#" class="list-group-item list-group-item-action">Heels</a>
+                        <a href="#" class="list-group-item list-group-item-action">Slippers</a>
+                        <a href="#" class="list-group-item list-group-item-action">Sandals</a>
+                        <a href="#" class="list-group-item list-group-item-action">Dress Shoes</a>
+                        <a href="#" class="list-group-item list-group-item-action">More</a>
+                    </div>
+                </div>
+
+                <div class="col-md-8">
+                    <div class="mt-3 ml-3">
+                        <h3 class="creation title">Listing your item</h3>
+                        <hr>
+                        <form class="ml-3 mt-3">
+                            <h4 class="subtitle mb-3">Listing Details</h4>
+                            <div class="form-group row">
+                                <label for="inputItemTitle" class="col-sm-2 col-form-label">* Title</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="inputTitle" placeholder="item title">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="category" class="col-sm-2 col-form-label">* Category</label>
+                                <div class="col-sm-10">
+                                    <div class="dropdown">
+                                        <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenu2"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Choose item category
+                                        </button>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                            <button class="dropdown-item" type="button">Boots</button>
+                                            <button class="dropdown-item" type="button">Sportwear</button>
+                                            <button class="dropdown-item" type="button">Canvas</button>
+                                            <div class="dropdown-divider"></div>
+                                            <a class="dropdown-item" href="#">More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <label for="condition" class="col-sm-2 col-form-label">* Condition</label>
+                                <div class="col-sm-10">
+                                    <div class="dropdown">
+                                        <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenu2"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Choose condition
+                                        </button>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                            <button class="dropdown-item" type="button">New with box</button>
+                                            <button class="dropdown-item" type="button">New without box</button>
+                                            <button class="dropdown-item" type="button">Pre-owned</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="input-group">
+                                <label for="photo" class="col-sm-2 col-form-label">* Photo</label>
+                                <div class="custom-file">
+                                    <input type="file" class="custom-file-input" id="inputGroupFile02">
+                                    <label class="custom-file-label" for="inputGroupFile02">Choose file</label>
+                                </div>
+                                <div class="input-group-append">
+                                    <button class="btn btn-outline-secondary" type="button">Upload</button>
+                                </div>
+                            </div>
+                            <hr>
+                        </form>
+
+                        <form class="ml-3 mt-3">
+                            <h4 class="subtitle">Item Specifics</h4>
+                            <div class="form-row">
+                                <div class="col-6">
+                                    <label for="inputBrand" class="col-sm-2 col-form-label">*Brand</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" id="inputBrand" placeholder="Brand">
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <label for="inputItemStyle" class="col-sm-2 col-form-label">*Style</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" id="inputStyle" placeholder="Style">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col-6">
+                                    <label for="inputItemColor" class="col-sm-2 col-form-label">*Color</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" id="inputText" placeholder="Color">
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <label for="inputItemSize" class="col-sm-2 col-form-label">*Size</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" id="inputText" placeholder="Size">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col-12">
+                                    <label for="exampleFormControlTextarea1" class="col-sm-2 col-form-label">* Item
+                                        Description</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                                </div>
+                            </div>
+                            <hr>
+                        </form>
+
+                        <form class="ml-3 mt-3">
+                            <h4 class="subtitle">Selling Details</h4>
+                            <div class="form-group row">
+                                <label for="duration" class="col-sm-2 col-form-label">* Duration</label>
+                                <div class="col-sm-10">
+                                    <div class="dropdown">
+                                        <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenu2"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Duration
+                                        </button>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                            <button class="dropdown-item" type="button">7 days</button>
+                                            <button class="dropdown-item" type="button">15 days</button>
+                                            <button class="dropdown-item" type="button">1 month</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="inputItemstartingPrice" class="col-sm-2 col-form-label">* Starting
+                                    Price</label>
+                                <div class="col-sm-4">
+                                    <input type="text" class="form-control" id="inputStartingPrice" placeholder="$">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="inputItemQuantity" class="col-sm-2 col-form-label">* Quantity</label>
+                                <div class="col-sm-4">
+                                    <input type="number" class="form-control" id="inputItemQuantity"
+                                        placeholder="Quantity">
+                                </div>
+                            </div>
+                            <hr>
+                            <div style="text-align: center">
+                                <input class="btn btn-info" type="submit" value="Submit">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+
+    <!-- Footer -->
+    <footer class="page-footer text-white bg-secondary mt-5">
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+            <a class="text-warning" href="index.html"> FootwearAuction.com</a>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+.container-fluid h1{ 
+    text-align: center;
+    font-weight: bold;
+    font-style:italic;
+    color :rgb(252, 250, 250);
+    font-size: 28px;} 
+
+.carousel img {
+    width: 500px;
+    height: 400px;}
+
+#buttonAlign{text-align: right;}
+.removeBtn{text-align: right;}
+

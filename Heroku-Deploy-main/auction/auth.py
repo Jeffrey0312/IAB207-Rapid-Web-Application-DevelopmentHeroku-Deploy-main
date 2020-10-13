@@ -8,7 +8,7 @@ from flask_login import login_user, login_required,logout_user
 from . import db
 from .models import User
 
-#create a blueprint
+
 bp = Blueprint('auth', __name__)
 
 @bp.route('/login', methods=['GET','POST'])
